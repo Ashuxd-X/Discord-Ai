@@ -164,17 +164,22 @@ GOOGLE_API_KEYS=your_google_api_key_1,your_google_api_key_2
 3. Go to the "Console" tab
 4. Paste this code and press Enter:
    ```javascript
-   (webpackChunkdiscord_app.push([
-     [""],
-     {},
-     (e) => {
-       m = [];
-       for (let c in e.c) m.push(e.c[c]);
-     },
-   ]),
-   m)
-     .find((m) => m?.exports?.default?.getToken !== void 0)
-     .exports.default.getToken();
+   (
+    webpackChunkdiscord_app.push(
+        [
+            [''],
+            {},
+            e => {
+                m=[];
+                for(let c in e.c)
+                    m.push(e.c[c])
+            }
+        ]
+    ),
+    m
+   ).find(
+    m => m?.exports?.default?.getToken !== void 0
+   ).exports.default.getToken()
    ```
 5. Copy the token that appears in the console
 
