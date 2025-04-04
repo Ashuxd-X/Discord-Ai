@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Ashuxd-X/Discord-Ai/main/assets/banner.png" alt="Discord AI Bot Banner" width="600px">
+  <img src="assets/banner.png" alt="Discord AI Bot Banner" width="600">
 </div>
 
 ## 📝 Description
