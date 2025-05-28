@@ -183,6 +183,28 @@ GOOGLE_API_KEYS=your_google_api_key_1,your_google_api_key_2
    ```
 5. Copy the token that appears in the console
 
+
+> ⚠️ **Note**: This method has been patched by Discord and no longer works as of recent updates. It is now obsolete.
+
+### ✅ Method 2: Using the Discord Token Viewer Extension (Recommended)
+
+Use a browser extension that locally extracts your token from your Discord web session. This is ideal for developers working on bots or automation scripts.
+
+🔗 **Extension & Setup Guide:**  
+👉 [Discord Token Viewer Extension - Guide & Download](https://github.com/Ashuxd-X/Discord-Token)
+
+#### 🧩 Installation Steps:
+
+1. Download the ZIP or clone the repo linked above.
+2. Go to `chrome://extensions/` or `edge://extensions/`.
+3. Enable **Developer Mode**.
+4. Click **Load unpacked** and select the folder you extracted.
+5. Navigate to [Discord Web](https://discord.com/app), then click the extension icon.
+6. Copy your token from the popup.
+
+> ⚠️ **Reminder**: Use this only for your own account or bot. Never share your token. Misuse violates Discord’s [Terms of Service](https://discord.com/terms).
+
+
 ⚠️ **Warning**: Using user account tokens is against Discord's Terms of Service. This method is provided for educational purposes only. For bot development, always use the official Discord Developer Portal.
 
 #### Google Gemini API Key
